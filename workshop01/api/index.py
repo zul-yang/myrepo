@@ -9,7 +9,7 @@ origins = [
     "http://localhost",
     "http://localhost:8080",
     "http://localhost:3000"
-    "https://myrepo-r2us.vercel.app/"
+    "https://myrepo-zulyang.vercel.app"
 ]
 
 app.add_middleware(
