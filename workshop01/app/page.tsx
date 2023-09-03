@@ -6,7 +6,7 @@ export default function Home() {
   const [apiData, setApiData] = useState("");
 
   useEffect(() => {
-    fetch("http://127.0.0.1:8000/api/quotes")
+    fetch("https://myrepo-r2us.vercel.app//api/quotes")
       .then((response) => response.json())
       .then((data) => setApiData(data.message))
       .catch((error) => console.error("Error fetching data:", error));
